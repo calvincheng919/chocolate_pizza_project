@@ -1,3 +1,29 @@
 body {
   background: lightgray;
 }
+
+
+
+/* HEADER */
+
+body > header {
+  color: #525252;
+  background: white;
+}
+
+/* target the class title that is immediate child of header, that is the immediate child of body  */
+body > header > .title {
+  display: block;
+  font-family: 'Yellowtail', cursive;
+  font-size: 2em;
+}
+
+
+
+
+
+nav li {
+  display: inline-block;
+  margin:0;
+  padding: 0;
+}
