@@ -2,6 +2,38 @@ body {
   background: lightgray;
 }
 
+/* General Page formatting */
+body {
+  color: #595959;
+  font-family: serif;
+}
+
+strong {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: 'Oswald';
+  font-size: 3em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: .5em;
+}
+
+a.primary {
+  background: #ba6f57;
+  color: #fff;
+  display: inline-block;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+}
 
 
 /* HEADER */
@@ -19,11 +51,18 @@ body > header > .title {
 }
 
 
-
-
-
 nav li {
   display: inline-block;
   margin:0;
   padding: 0;
 }
+
+
+
+/* MAIN */
+
+
+
+/* FOOTER */
+
+
